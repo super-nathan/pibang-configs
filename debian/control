@@ -1,0 +1,15 @@
+Source: pibang-configs
+Section: misc
+Priority: extra
+Maintainer: "Super" Nathan Weber <supernathansunshine@gmail.com>
+Build-Depends-Indep: debhelper (>= 5.0.0)
+Standards-Version: 3.9.0
+Homepage: http://pibang.org/
+
+Package: pibang-configs
+Architecture: all
+Description: config files for PiBang Linux
+ Various configuration files for use with PiBang Linux.
+
+
+
