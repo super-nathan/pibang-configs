@@ -58,6 +58,13 @@
 					</command>
 				</action>
 			</item>
+			<item label="Xarchiver">
+			<action name="Execute">
+				<command>
+						xarchiver
+				</command>
+			</action>
+		</item>
 			<item label="Geany Text Editor">
 				<action name="Execute">
 					<command>
@@ -145,7 +152,7 @@
 			<item label="Ceni">
 				<action name="Execute">
 					<command>
-						ceni
+						 terminator --command="sudo ceni"
 					</command>
 				</action>
 			</item>
@@ -406,6 +413,13 @@
 		</menu>
 		<menu id="system" label="System">
 		    <menu execute="cb-printing-pipemenu" id="PrintingPipeMenu" label="Printers"/>
+		    <item label="Change overclock">
+			<action name="Execute">
+				<command>
+						gksudo oc-change
+				</command>
+			</action>
+		</item>
 		    <item label="GParted">
 				<action name="Execute">
 					<command>

@@ -1,3 +1,4 @@
+/etc/skel/.config/midori/config
 /etc/skel/.config/tint2/tint2rc
 /etc/skel/.config/gtk-3.0/settings.ini
 /etc/skel/.config/geany/keybindings.conf
