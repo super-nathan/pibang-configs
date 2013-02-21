@@ -1,11 +1,12 @@
 #########################################################
 # 
 #        This is where you can edit the already
-#           amazing default configs for ZS
+#           amazing default configs for ZSH
 #
 ########################################################
 
-#Color table from: http://www.understudy.net/custom.html
+
+##Color table from: http://www.understudy.net/custom.html
 fg_black=%{$'\e[0;30m'%}
 fg_red=%{$'\e[0;31m'%}
 fg_green=%{$'\e[0;32m'%}
@@ -22,6 +23,9 @@ fg_lblue=%{$'\e[1;34m'%}
 fg_pink=%{$'\e[1;35m'%}
 fg_lcyan=%{$'\e[1;36m'%}
 fg_white=%{$'\e[1;37m'%}
+intro_fg_lred=$'\e[1;31m'
+intro_fg_yellow=$'\e[1;33m'
+intro_fg_green=$'\e[0;32m'
 #Text Background Colors
 bg_red=%{$'\e[0;41m'%}
 bg_green=%{$'\e[0;42m'%}
@@ -46,16 +50,23 @@ at_underloff=%{$'\e[24m'%}
 at_blinkoff=%{$'\e[25m'%}
 at_reverseoff=%{$'\e[27m'%}
 at_strikeoff=%{$'\e[29m'%}
+
+## First a welcome message
+echo ""
+echo "${intro_fg_yellow} Welcome to PiBang on the"
+echo "${intro_fg_green}     Raspberry ${intro_fg_lred} Pi"
+echo ""
  
  
+## Now ot make the prompt pretty
 PROMPT="
 ${fg_yellow}%n${fg_lgreen}@${at_underl}%m${at_underloff}${fg_white}[${fg_cyan}%~${fg_white}]:${at_normal}"
  
-#Set the auto completion on
+##Set the auto completion on
 autoload -U compinit
 compinit
  
-#Lets set some options
+##Lets set some options
 setopt correct
 setopt autocd
 setopt auto_resume
@@ -65,7 +76,7 @@ setopt nohup
 ## Enables the extgended globbing features
 setopt extendedglob
  
-#Set some ZSH styles
+##Set some ZSH styles
 zstyle ':completion:*:descriptions' format '%U%B%d%b%u'
 zstyle ':completion:*:warnings' format '%BSorry, no matches for: %d%b'
  

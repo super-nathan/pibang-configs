@@ -214,6 +214,22 @@
 		<menu execute="cb-recent-files-pipemenu" id="pipe-recentfilesmenu" label="Recent Files"/>
 		<separator/>
 		<menu id="settings" label="Settings">
+			<menu id="conkyconfig" label="Boot COnfiguration">
+				<item label="Edit boot.txt">
+					<action name="Execute">
+						<command>
+							gksudo geany /boot/config.txt
+						</command>
+					</action>
+				</item>
+				<separator label="Help?"/>
+				<item label="Wiki Page">
+					<action name="Execute">
+						<command>
+							x-www-browser http://elinux.org/RPi_config.txt
+						</command>
+					</action>
+				</item>
 			<menu id="conkyconfig" label="Conky">
 				<item label="Edit .conkyrc">
 					<action name="Execute">
