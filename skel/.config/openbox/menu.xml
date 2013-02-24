@@ -214,7 +214,7 @@
 		<menu execute="cb-recent-files-pipemenu" id="pipe-recentfilesmenu" label="Recent Files"/>
 		<separator/>
 		<menu id="settings" label="Settings">
-			<menu id="conkyconfig" label="Boot COnfiguration">
+			<menu id="bootconfig" label="Boot Configuration">
 				<item label="Edit boot.txt">
 					<action name="Execute">
 						<command>
@@ -230,6 +230,7 @@
 						</command>
 					</action>
 				</item>
+			</menu>	
 			<menu id="conkyconfig" label="Conky">
 				<item label="Edit .conkyrc">
 					<action name="Execute">

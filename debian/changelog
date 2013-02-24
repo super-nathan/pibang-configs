@@ -1,3 +1,9 @@
+pibang-configs (0.1.9) unstable; urgency=low
+
+  * fixed xml menu eror
+
+ -- "Super" Nathan Weber <supernathansunshine@gmail.com>  Sun, 24 Feb 2013 20:53:16 +0900
+
 pibang-configs (0.1.8) unstable; urgency=low
 
   * add editing of the config.txt
