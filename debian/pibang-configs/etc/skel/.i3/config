@@ -23,8 +23,8 @@ set $mod Mod4
 #######################################################
 
 exec --no-startup-id i3-msg 'workspace 2; exec midori; workspace 1'
-exec --no-startup-id i3-msg 'workspace 9; exec xterm -e slow-htop; workspace 1'
-exec --no-startup-id i3-msg 'workspace 1; exec terminator;'
+exec --no-startup-id i3-msg 'workspace 9; exec slow-htop; workspace 1'
+exec --no-startup-id i3-msg 'workspace 1; exec pbterm'
 
 # Set a background
 exec nitrogen --restore

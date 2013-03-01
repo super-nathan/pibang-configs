@@ -23,8 +23,8 @@ set $mod Mod4
 #######################################################
 
 exec --no-startup-id i3-msg 'workspace 2; exec midori; workspace 1'
-exec --no-startup-id i3-msg 'workspace 9; exec xterm -e slow-htop; workspace 1'
-exec --no-startup-id i3-msg 'workspace 1; exec terminator;'
+exec --no-startup-id i3-msg 'workspace 9; exec slow-htop; workspace 1'
+exec --no-startup-id i3-msg 'workspace 1; exec pbterm'
 
 # Set a background
 exec nitrogen --restore
@@ -102,9 +102,13 @@ bindsym $mod+Shift+Q kill
 bindsym $mod+d exec dmenu_run
 ############################################
 
-
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
+
+## You probably don't want to mess with this unless you KNOW what you are 
+## doing and using conky or a substittute for the bar.
+
+
 bar {
         status_command i3status
 }

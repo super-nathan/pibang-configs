@@ -1,3 +1,9 @@
+pibang-configs (0.1.11) unstable; urgency=low
+
+  * changed i3's startup to utilize xterm and to run a first-run sript"
+
+ -- "Super" Nathan Weber <supernathansunshine@gmail.com>  Fri, 01 Mar 2013 08:45:23 +0900
+
 pibang-configs (0.1.10) unstable; urgency=low
 
   * added a script to start htop with a delay for i3 
