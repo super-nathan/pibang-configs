@@ -1,3 +1,9 @@
+pibang-configs (0.1.12) unstable; urgency=low
+
+  * htop for i3
+
+ -- "Super" Nathan Weber <supernathansunshine@gmail.com>  Tue, 05 Mar 2013 09:18:45 +0900
+
 pibang-configs (0.1.11) unstable; urgency=low
 
   * changed i3's startup to utilize xterm and to run a first-run sript"

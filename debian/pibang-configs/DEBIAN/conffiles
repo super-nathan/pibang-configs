@@ -16,7 +16,6 @@
 /etc/skel/.config/terminator/config
 /etc/skel/.xscreensaver
 /etc/skel/.gtkrc-2.0
-/etc/skel/.i3/i3status.conf
 /etc/skel/.i3/config
 /etc/skel/.zshrc
 /etc/skel/.omxplayer
