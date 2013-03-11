@@ -1,3 +1,15 @@
+pibang-configs (0.1.14) unstable; urgency=low
+
+  * change some screensaver settings
+
+ -- "Super" Nathan Weber <supernathansunshine@gmail.com>  Mon, 11 Mar 2013 08:52:06 +0900
+
+pibang-configs (0.1.13) unstable; urgency=low
+
+  * more i3 changes
+
+ -- "Super" Nathan Weber <supernathansunshine@gmail.com>  Tue, 05 Mar 2013 11:52:43 +0900
+
 pibang-configs (0.1.12) unstable; urgency=low
 
   * htop for i3
