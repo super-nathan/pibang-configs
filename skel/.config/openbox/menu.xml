@@ -17,7 +17,7 @@
 		<item label="Terminal">
 			<action name="Execute">
 				<command>
-					terminator
+					lxterminal
 				</command>
 			</action>
 		</item>
@@ -31,7 +31,7 @@
 		<item label="File Manager">
 			<action name="Execute">
 				<command>
-					thunar
+					spacefm
 				</command>
 			</action>
 		</item>
@@ -75,28 +75,28 @@
 			<item label="Task Manager (htop)">
 				<action name="Execute">
 					<command>
-						terminator --command="htop"
+						lxterminal --command="htop"
 					</command>
 				</action>
 			</item>
-			<item label="Terminator Terminal">
+			<item label="lxterminal Terminal">
 				<action name="Execute">
 					<command>
-						terminator
+						lxterminal
 					</command>
 				</action>
 			</item>
-			<item label="Thunar File Manager">
+			<item label="SpaceFM File Manager">
 				<action name="Execute">
 					<command>
-						thunar
+						spacefm
 					</command>
 				</action>
 			</item>
-			<item label="Thunar File Manager (root)">
+			<item label="SpaceFM File Manager (root)">
 				<action name="Execute">
 					<command>
-						gksudo thunar
+						gksudo spacefm
 					</command>
 				</action>
 			</item>
@@ -128,7 +128,7 @@
 			<item label="Movie Player">
                  <action name="Execute">
                       <command>
-                        terminator --command="less ~/.omxplayer"
+                        lxterminal --command="less ~/.omxplayer"
                       </command>
                   </action>
              </item>
@@ -142,7 +142,7 @@
 			<item label="Volume Control">
 				<action name="Execute">
 					<command>
-						terminator --command="alsamixer"
+						lxterminal --command="alsamixer"
 					</command>
 				</action>
 			</item>
@@ -152,7 +152,7 @@
 			<item label="Ceni">
 				<action name="Execute">
 					<command>
-						 terminator --command="sudo ceni"
+						 lxterminal --command="sudo ceni"
 					</command>
 				</action>
 			</item>
@@ -243,7 +243,7 @@
 				<item label="man page">
 					<action name="Execute">
 						<command>
-							terminator --command="man conky"
+							lxterminal --command="man conky"
 						</command>
 					</action>
 				</item>
@@ -267,7 +267,7 @@
 				<item label="man page">
 					<action name="Execute">
 						<command>
-							terminator --command="man dmenu"
+							lxterminal --command="man dmenu"
 						</command>
 					</action>
 				</item>
@@ -284,7 +284,7 @@
 				<item label="man page">
 					<action name="Execute">
 						<command>
-							terminator --command="man gmrun"
+							lxterminal --command="man gmrun"
 						</command>
 					</action>
 				</item>
@@ -334,11 +334,11 @@
 					<action name="Restart"/>
 				</item>
 			</menu>
-			<menu id="terminatorconfig" label="Terminator">
+			<menu id="lxterminalconfig" label="lxterminal">
 				<item label="Edit config file">
 					<action name="Execute">
 						<command>
-							geany ~/.config/terminator/config
+							geany ~/.config/lxterminal/lxterminal.conf
 						</command>
 					</action>
 				</item>
@@ -346,7 +346,7 @@
 				<item label="man page">
 					<action name="Execute">
 						<command>
-							terminator --command="man terminator_config"
+							lxterminal --command="man lxterminal_config"
 						</command>
 					</action>
 				</item>
@@ -370,7 +370,7 @@
 				<item label="man page">
 					<action name="Execute">
 						<command>
-							terminator --command="man tint2"
+							lxterminal --command="man tint2"
 						</command>
 					</action>
 				</item>
@@ -394,7 +394,7 @@
 			    <item label="man xrandr">
 				    <action name="Execute">
 					    <command>
-						    terminator --command="man xrandr"
+						    lxterminal --command="man xrandr"
 					    </command>
 				    </action>
 			    </item>
@@ -402,7 +402,7 @@
 			<item label="Edit Default Applications">
 				<action name="Execute">
 					<command>
-						terminator --command="sudo update-alternatives --all"
+						lxterminal --command="sudo update-alternatives --all"
 					</command>
 				</action>
 			</item>

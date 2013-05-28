@@ -1,3 +1,15 @@
+pibang-configs (0.1.16) unstable; urgency=low
+
+  * updaes for system performance
+
+ -- "Super" Nathan Weber <supernathansunshine@gmail.com>  Tue, 28 May 2013 10:08:47 +0900
+
+pibang-configs (0.1.15) unstable; urgency=low
+
+  * changing terminals
+
+ -- "Super" Nathan Weber <supernathansunshine@gmail.com>  Mon, 06 May 2013 11:29:19 +0900
+
 pibang-configs (0.1.14) unstable; urgency=low
 
   * change some screensaver settings

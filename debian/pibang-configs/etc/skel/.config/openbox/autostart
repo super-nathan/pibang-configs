@@ -29,7 +29,7 @@ hsetroot -solid "#2E3436" &
 ## 4. conky
 ## 5. tint2 panel
 nitrogen --restore &
-xcompmgr &
+#(sleep 3s && cb-compositor --start) &
 sleep 2s &
 conky -q &
 tint2 &
@@ -37,8 +37,8 @@ tint2 &
 ## Volume control for systray
 (sleep 5s && volumeicon) &
 
-## Start Thunar Daemon
-thunar --daemon &
+## Start SpaceFM Daemon
+spacefm  --daemon-mode &
 
 ## Start xscreensaver
 xscreensaver -no-splash &

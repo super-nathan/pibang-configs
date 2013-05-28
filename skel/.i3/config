@@ -29,8 +29,8 @@ exec --no-startup-id i3-msg 'workspace 1; exec pbterm'
 exec nitrogen --restore
 
 
-# Thunar as a daemon!
-exec thunar --daemon 
+# SpaceFM as a daemon!
+exec spacefm --daemon-mode 
 
 # ICons
 exec --no-startup-id clipit
@@ -64,7 +64,7 @@ for_window [class="Xfce4-notifyd"] floating enable; border none; focus mode_togg
 
 # Keybindings you might want to change
 # start a terminal
-bindsym $mod+Return exec terminator
+bindsym $mod+Return exec lxterminal
 
 # Rub a lamp, get a geany
 bindsym $mod+X exec geany
@@ -81,8 +81,8 @@ bindsym $mod+C exec midori
 # Send files to your friends
 bindsym $mod+Z exec gftp
 
-# N is for Nautilus T is for Thunar
-bindsym $mod+N exec thunar
+# N is for Nautilus T is for SpaceFM
+bindsym $mod+N exec spacefm
 
 # whats left over? the gimp
 bindsym $mod+G exec gimp
@@ -92,7 +92,7 @@ bindsym $mod+G exec gimp
 bindsym $mod+P exec xfce4-screenshooter
 
 # screenshots bitches (movie stylie)
-bindsym $mod+O exec terminator -e recordmydesktop
+bindsym $mod+O exec lxterminal -e recordmydesktop
 
 # kill focused window
 bindsym $mod+Shift+Q kill
