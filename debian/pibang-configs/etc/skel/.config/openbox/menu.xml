@@ -214,8 +214,9 @@
 		<menu execute="cb-recent-files-pipemenu" id="pipe-recentfilesmenu" label="Recent Files"/>
 		<separator/>
 		<menu id="settings" label="Settings">
+			<menu execute="cb-compositor" id="CompositingPipeMenu" label="Compositor"/>
 			<menu id="bootconfig" label="Boot Configuration">
-				<item label="Edit boot.txt">
+				<item label="Edit config.txt">
 					<action name="Execute">
 						<command>
 							gksudo geany /boot/config.txt
